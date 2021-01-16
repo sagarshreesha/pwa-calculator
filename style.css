@@ -4,9 +4,8 @@
 
 html,
 body {
-  @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap");
   color: #444;
-  font-family: "Cabin", sans-serif;
+  font-family: "Quicksand", sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   height: 100%;
@@ -33,7 +32,7 @@ body {
   -ms-user-select: none;
   user-select: none;
   font-weight: bold !important;
-  font-family: "Cabin" sans-serif !important;
+  font-family: "Quicksand", sans-serif;
 }
 
 .calculator-keys {
@@ -65,7 +64,7 @@ body {
   font-size: 6vh;
   font-weight: 300;
   border: none;
-  font-family: "Cabin" sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 button.calculator-key:focus {
@@ -94,7 +93,7 @@ button.calculator-key:focus {
   margin: 15% auto;
   padding: 20px 30px 40px 30px;
   border: none;
-  font-family: "Cabin" sans-serif;
+  font-family: "Quicksand", sans-serif;
   max-width: 500px;
   text-align: center;
 }
@@ -148,7 +147,7 @@ button.calculator-key:focus {
 }
 .radio input[type="radio"] + label {
   color: #333;
-  font-family: "Cabin" sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-size: 14px;
 }
 .radio input[type="radio"] + label span {
@@ -160,7 +159,7 @@ button.calculator-key:focus {
   cursor: pointer;
   border-radius: 50%;
   border: none;
-  font-family: "Cabin" sans-serif;
+  font-family: "Quicksand", sans-serif;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
   background-repeat: no-repeat;
   background-position: center;
