@@ -3,10 +3,12 @@
 /* Apple */
 .apple {
   background: #f5923e;
-  background: -moz-linear-gradient(45deg,  #f5923e 0%, #333333 61%);
-  background: -webkit-linear-gradient(45deg,  #f5923e 0%,#333333 61%);
-  background: linear-gradient(45deg,  #f5923e 0%,#333333 61%);
+  background: -moz-linear-gradient(45deg, #f5923e 0%, #333333 61%);
+  background: -webkit-linear-gradient(45deg, #f5923e 0%, #333333 61%);
+  background: linear-gradient(45deg, #f5923e 0%, #333333 61%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5923e', endColorstr='#333333',GradientType=1 );
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 .calculator-display.apple {
@@ -16,123 +18,146 @@
 .calculator-key.nm.apple {
   background: rgb(192, 192, 192);
   color: #1c1c1c;
-  border: 0.5px solid #777;
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 .calculator-key.op.apple {
   background: #f5923e;
-  color: #fafafa;
-  border: 0.5px solid #777;
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 .calculator-key.op.op-active.apple {
-  border: 2px solid #4f4f4f;
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 .calculator-key.sp.apple {
   background: #949597;
   color: #fafafa;
-  border: 0.5px solid #777;
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 /* Bubblegum */
 .bubblegum {
   color: #fff;
   background: #ff48a5;
-  background: -moz-linear-gradient(45deg,  #ff48a5 0%, #ff77bc 45%, #ffcae5 100%);
-  background: -webkit-linear-gradient(45deg,  #ff48a5 0%,#ff77bc 45%,#ffcae5 100%);
-  background: linear-gradient(45deg,  #ff48a5 0%,#ff77bc 45%,#ffcae5 100%);
+  background: -moz-linear-gradient(
+    45deg,
+    #ff48a5 0%,
+    #ff77bc 45%,
+    #ffcae5 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #ff48a5 0%,
+    #ff77bc 45%,
+    #ffcae5 100%
+  );
+  background: linear-gradient(45deg, #ff48a5 0%, #ff77bc 45%, #ffcae5 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff48a5', endColorstr='#ffcae5',GradientType=1 );
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 .calculator-key.nm.bubblegum {
   background: #ffcae5;
-  border: 0.5px solid #ff48a4;
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 .calculator-key.op.bubblegum {
   background: #ff77bc;
-  border: 0.5px solid #ff48a4;
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 .calculator-key.op.op-active.bubblegum {
-  border: 2px solid #ff2995;
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 .calculator-key.sp.bubblegum {
   background: #ffaed7;
-  border: 0.5px solid #ff48a4;
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 /* Pink Pastel */
 .pink-pastel {
   color: #fff;
   background: #f29fac;
-  background: -moz-linear-gradient(45deg,  #f29fac 0%, #f3b7c2 100%);
-  background: -webkit-linear-gradient(45deg,  #f29fac 0%,#f3b7c2 100%);
-  background: linear-gradient(45deg,  #f29fac 0%,#f3b7c2 100%);
+  background: -moz-linear-gradient(45deg, #f29fac 0%, #f3b7c2 100%);
+  background: -webkit-linear-gradient(45deg, #f29fac 0%, #f3b7c2 100%);
+  background: linear-gradient(45deg, #f29fac 0%, #f3b7c2 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f29fac', endColorstr='#f3b7c2',GradientType=1 );
-
 }
 
 .calculator-key.nm.pink-pastel {
-  background: rgb(243,213,220);
+  background: rgb(243, 213, 220);
 }
 
 .calculator-key.op.pink-pastel {
-  background: rgb(237,201,210);
+  background: rgb(237, 201, 210);
 }
 
 .calculator-key.op.op-active.pink-pastel {
-  border: 2px solid #f29fac;
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 .calculator-key.sp.pink-pastel {
-  background: rgb(243,183,194);
+  background: rgb(243, 183, 194);
 }
 
 /* Unicorn */
 .unicorn {
   color: #fff;
   background: #9994de;
-  background: -moz-linear-gradient(left,  #9994de 0%, #f39eeb 100%);
-  background: -webkit-linear-gradient(left,  #9994de 0%,#f39eeb 100%);
-  background: linear-gradient(to right,  #9994de 0%,#f39eeb 100%);
+  background: -moz-linear-gradient(left, #9994de 0%, #f39eeb 100%);
+  background: -webkit-linear-gradient(left, #9994de 0%, #f39eeb 100%);
+  background: linear-gradient(to right, #9994de 0%, #f39eeb 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9994de', endColorstr='#f39eeb',GradientType=1 );
 }
 
 .calculator-key.nm.unicorn {
-  background: rgb(201,156,226);
-  border: 0.5px solid rgb(153,148,222);
+  background: rgb(201, 156, 226);
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 .calculator-key.op.unicorn {
-  background: rgb(153,148,222);
-  border: 0.5px solid rgb(153,148,222);
+  background: rgb(153, 148, 222);
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 .calculator-key.op.op-active.unicorn {
-  border: 2px solid rgb(253,160,238);
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 .calculator-key.sp.unicorn {
-  background: rgb(253,160,238);
-  border: 0.5px solid rgb(153,148,222);
+  background: rgb(253, 160, 238);
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 /* BMB */
 
 .bmb {
   background: #1c1f24;
-  background: -moz-linear-gradient(45deg,  #1c1f24 0%, #37cc9f 100%);
-  background: -webkit-linear-gradient(45deg,  #1c1f24 0%,#37cc9f 100%);
-  background: linear-gradient(45deg,  #1c1f24 0%,#37cc9f 100%);
+  background: -moz-linear-gradient(45deg, #1c1f24 0%, #37cc9f 100%);
+  background: -webkit-linear-gradient(45deg, #1c1f24 0%, #37cc9f 100%);
+  background: linear-gradient(45deg, #1c1f24 0%, #37cc9f 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c1f24', endColorstr='#37cc9f',GradientType=1 );
 }
 
 .calculator-display.bmb {
-  background: rgb(28,31,36);
-  color: rgb(55,204,159);
+  background: rgb(28, 31, 36);
+  color: rgb(55, 204, 159);
 }
 
 .calculator-key.nm.bmb {
@@ -140,67 +165,67 @@
 }
 
 .calculator-key.op.bmb {
-  background: rgb(29,33,42);
-  background: rgb(164,175,193);
+  background: rgb(29, 33, 42);
+  background: rgb(164, 175, 193);
 }
 
 .calculator-key.op.op-active.bmb {
-  border: 2px solid rgb(28,31,36);
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 .calculator-key.sp.bmb {
-  background: rgb(225,108,73);
+  background: rgb(225, 108, 73);
   color: #fff;
 }
-
 
 /* TI */
 
 .ti {
-background: #1d3f55;
-background: -moz-linear-gradient(45deg,  #1d3f55 0%, #8b977c 100%);
-background: -webkit-linear-gradient(45deg,  #1d3f55 0%,#8b977c 100%);
-background: linear-gradient(45deg,  #1d3f55 0%,#8b977c 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d3f55', endColorstr='#8b977c',GradientType=1 );
+  background: #1d3f55;
+  background: -moz-linear-gradient(45deg, #1d3f55 0%, #8b977c 100%);
+  background: -webkit-linear-gradient(45deg, #1d3f55 0%, #8b977c 100%);
+  background: linear-gradient(45deg, #1d3f55 0%, #8b977c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d3f55', endColorstr='#8b977c',GradientType=1 );
 }
 
 .calculator-display.ti {
-  background: rgb(140,152,124);
-  color: rgb(7,12,6);
+  background: rgb(140, 152, 124);
+  color: rgb(7, 12, 6);
 }
 
 .calculator-key.nm.ti {
-  background: rgb(205,205,205);
+  background: rgb(205, 205, 205);
 }
 
 .calculator-key.op.op-active.ti {
-  border: 2px solid rgb(204, 204, 204);
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 .calculator-key.op.ti {
-  background: rgb(29,63,85);
+  background: rgb(29, 63, 85);
   color: #fff;
 }
 
 .calculator-key.sp.ti {
-  background: rgb(16,16,16);
+  background: rgb(16, 16, 16);
   color: #fff;
 }
-
 
 /* Dark */
 
 .dark {
-  background: rgb(52,51,56);
+  background: rgb(52, 51, 56);
 }
 
 .calculator-display.dark {
-  background: rgb(219,230,226);
-  color: rgb(104,132,147);
+  background: #121212;
+  color: rgb(147, 167, 179);
 }
 
 .calculator-key.nm.dark {
-  background: rgb(52,51,56);
+  background: rgb(52, 51, 56);
   color: #fff;
 }
 
@@ -210,7 +235,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d3f55', end
 }
 
 .calculator-key.op.op-active.dark {
-  border: 2px solid rgb(204, 204, 204);
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 .calculator-key.sp.dark {
@@ -222,33 +248,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d3f55', end
 
 .light {
   background: #ee5a62;
-  background: -moz-linear-gradient(45deg,  #ee5a62 0%, #3487be 100%);
-  background: -webkit-linear-gradient(45deg,  #ee5a62 0%,#3487be 100%);
-  background: linear-gradient(45deg,  #ee5a62 0%,#3487be 100%);
+  background: -moz-linear-gradient(45deg, #ee5a62 0%, #3487be 100%);
+  background: -webkit-linear-gradient(45deg, #ee5a62 0%, #3487be 100%);
+  background: linear-gradient(45deg, #ee5a62 0%, #3487be 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ee5a62', endColorstr='#3487be',GradientType=1 );
 }
 
 .calculator-display.light {
-  background: rgb(37,37,37);
-  color: rgb(171,171,171);
+  background: rgb(37, 37, 37);
+  color: rgb(171, 171, 171);
 }
 
 .calculator-key.nm.light {
-  background: rgb(248,248,248);
-   color: rgb(51,51,51);
+  background: rgb(248, 248, 248);
+  color: rgb(51, 51, 51);
 }
 
 .calculator-key.op.light {
-  background: rgb(52,135,190);
+  background: rgb(52, 135, 190);
   color: #fff;
 }
 
 .calculator-key.op.op-active.light {
-  border: 2px solid rgb(204, 204, 204);
+  border: none !important;
+  font-family: "Cabin", sans-serif !important;
 }
 
 .calculator-key.sp.light {
-  background: rgb(238,90,98);
+  background: rgb(238, 90, 98);
   color: #fff;
 }
-
